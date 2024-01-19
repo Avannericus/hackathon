@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 1140px;
+    display: flex;
+    gap: 32px;
+    margin: 24px 0px;
+}
+body {
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    background-color: black;
+    font-family: "Anonymous Pro", sans-serif;
+}
+.html {
+    background-color: yellow;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.css {
+    background-color: skyblue;
+    border-radius: 12px;
+}
+
+
+.js {
+    background-color: #FF00FF;
+    border-radius: 12px;
+}
+
+.react_text {
+    background-color: rgb(227, 146, 227);
+    border-radius: 12px;
+}
+img {
+max-width: 300px;
+max-height: 300px;
+border-radius: 12px;
+}
+
+.y_p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 75%;
+}
+
+.react {
+    display: flex;
+    height: 300px;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+}
+
+.card img {
+    margin: 24px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+p {
+    margin: 24px 12px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+.email {
+    background-color: white;
+    border-radius: 10px;
+    margin: 24px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.e {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+}
+
+
+
+.kv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    font-family: "Anonymous Pro", sans-serif;
+    outline: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+button {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #FF00FF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 4px;
+    border: none;
+
+    transition-duration: 0.5s;
+}
